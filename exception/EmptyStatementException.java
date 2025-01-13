@@ -1,12 +1,12 @@
 package exception;
 
 public class EmptyStatementException extends Exception {
-    public EmptyStatementException(){
+    public EmptyStatementException() {
         super();
     }
 
     @Override
-    public String getMessage(){
+    public String getMessage() {
         return "Не может быть пустого высказывания";
     }
 }

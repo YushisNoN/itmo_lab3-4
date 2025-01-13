@@ -1,12 +1,12 @@
 package exception;
 
 public class WrongBookException extends Exception {
-    public WrongBookException(){
+    public WrongBookException() {
         super();
     }
 
     @Override
-    public String getMessage(){
+    public String getMessage() {
         return "Ошибка, не может прочитать то, что не знает";
     }
 }

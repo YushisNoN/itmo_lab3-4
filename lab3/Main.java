@@ -1,4 +1,5 @@
 package lab3;
+
 import aliveEnities.author.Author;
 import aliveEnities.danfort.Danfort;
 import aliveEnities.elders.Elders;
@@ -72,5 +73,5 @@ public class Main {
             e.printStackTrace();
         }
         System.out.println("Хранившийся " + library.toString() + " в " + university.toString());
-    }   
+    }
 }
